@@ -46,3 +46,15 @@ string[] CreateNewArray(string[] array, int size)
     }
     return newArray;
 } 
+
+Console.WriteLine("Input a size of array: ");
+int size = Convert.ToInt32(Console.ReadLine());
+string[] myArray = CreateArray(size);
+
+ShowArray(myArray);
+
+int newSize = FindSizeOfNewArray(myArray);
+// Console.WriteLine($"A size of new array is {newSize}");
+
+string[] myArray2 = CreateNewArray(myArray, newSize);
+ShowArray(myArray2);
