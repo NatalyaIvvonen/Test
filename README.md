@@ -22,4 +22,6 @@
 
 ## Алгоритм решения:
 
-![Алгоритм](/task1.jpeg.jpg)
+![Алгоритм решения задачи](https://github.com/NatalyaIvvonen
+/
+Test/raw/main/test/task1.png)
