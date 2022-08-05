@@ -15,6 +15,7 @@
 
 void ShowArray(string[] array)
 {
+    Console.WriteLine("Your array is: ");
     for (int i = 0; i < array.Length; i++)
         Console.Write(array[i] + ", ");
 
@@ -55,6 +56,8 @@ ShowArray(myArray);
 
 int newSize = FindSizeOfNewArray(myArray);
 // Console.WriteLine($"A size of new array is {newSize}");
+
+Console.WriteLine();
 
 string[] myArray2 = CreateNewArray(myArray, newSize);
 ShowArray(myArray2);
